@@ -199,7 +199,7 @@ header {
 }
 .tags {
   display: flex;
-  gap: 0 1em;
+  gap: 1em;
   flex-wrap: wrap;
   .tag {
     background-color: #707070;
@@ -276,6 +276,13 @@ header {
     button {
       border-radius: 0;
       width: 100%;
+    }
+  }
+  .div {
+    width: 45%;
+    margin: 0 auto;
+    img {
+      width: 50px;
     }
   }
 }
@@ -421,5 +428,8 @@ header {
     width: 100%;
     font-size: 18px;
     margin-top: 3em;
+    .div {
+      width: 80%;
+    }
   }
 }

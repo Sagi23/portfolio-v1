@@ -250,7 +250,7 @@ header nav .empty {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  gap: 0 1em;
+  gap: 1em;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
@@ -359,6 +359,15 @@ header nav .empty {
 .contact form button {
   border-radius: 0;
   width: 100%;
+}
+
+.contact .div {
+  width: 45%;
+  margin: 0 auto;
+}
+
+.contact .div img {
+  width: 50px;
 }
 
 #work {
@@ -508,6 +517,9 @@ header nav .empty {
     width: 100%;
     font-size: 18px;
     margin-top: 3em;
+  }
+  .contact .div {
+    width: 80%;
   }
 }
 /*# sourceMappingURL=style.css.map */
