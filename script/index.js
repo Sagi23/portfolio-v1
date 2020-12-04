@@ -61,3 +61,80 @@ menuBtn.addEventListener("click", function () {
     }, 400);
   }
 });
+
+gsap.from(".perfect-plate-left", {
+  scrollTrigger: ".perfect-plate-left", // start the animation when ".box" enters the viewport (once)
+  x: -100,
+  opacity: 0,
+  delay: 0.3,
+});
+gsap.from(".perfect-plate-right", {
+  scrollTrigger: ".perfect-plate-right", // start the animation when ".box" enters the viewport (once)
+  x: 100,
+  opacity: 0,
+  delay: 0.3,
+});
+gsap.from(".devjobs-left", {
+  scrollTrigger: ".devjobs-left", // start the animation when ".box" enters the viewport (once)
+  x: -100,
+  opacity: 0,
+  delay: 0.3,
+});
+gsap.from(".devjobs-right", {
+  scrollTrigger: ".devjobs-right", // start the animation when ".box" enters the viewport (once)
+  x: 100,
+  opacity: 0,
+  delay: 0.3,
+});
+gsap.from(".ip-tracker-left", {
+  scrollTrigger: ".ip-tracker-left", // start the animation when ".box" enters the viewport (once)
+  x: -100,
+  opacity: 0,
+  delay: 0.3,
+});
+gsap.from(".ip-tracker-right", {
+  scrollTrigger: ".ip-tracker-right", // start the animation when ".box" enters the viewport (once)
+  x: 100,
+  opacity: 0,
+  delay: 0.3,
+});
+gsap.from(".shortly-left", {
+  scrollTrigger: ".shortly-left", // start the animation when ".box" enters the viewport (once)
+  x: -100,
+  opacity: 0,
+  delay: 0.3,
+});
+gsap.from(".shortly-right", {
+  scrollTrigger: ".shortly-right", // start the animation when ".box" enters the viewport (once)
+  x: 100,
+  opacity: 0,
+  delay: 0.3,
+});
+gsap.from(".photosnap-left", {
+  scrollTrigger: ".photosnap-left", // start the animation when ".box" enters the viewport (once)
+  x: -100,
+  opacity: 0,
+  delay: 0.3,
+});
+gsap.from(".photosnap-right", {
+  scrollTrigger: ".photosnap-right", // start the animation when ".box" enters the viewport (once)
+  x: 100,
+  opacity: 0,
+  delay: 0.3,
+});
+gsap.from(".construction-left", {
+  scrollTrigger: ".construction-left", // start the animation when ".box" enters the viewport (once)
+  x: -100,
+  opacity: 0,
+  delay: 0.3,
+});
+gsap.from(".construction-right", {
+  scrollTrigger: ".construction-right", // start the animation when ".box" enters the viewport (once)
+  x: 100,
+  opacity: 0,
+  delay: 0.3,
+});
+
+gsap.from(".hero-left", { duration: 0.5, x: -300, opacity: 0 });
+gsap.from(".hero-right", { duration: 0.8, opacity: 0, delay: 0.7 });
+gsap.from("nav", { duration: 0.8, opacity: 0, delay: 0.7 });

@@ -379,6 +379,15 @@ header nav .empty {
 
 .contact .div img {
   width: 50px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.contact .div img:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
 #work {
