@@ -181,6 +181,9 @@ header {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 8em;
+  button {
+    margin-top: 2.5em;
+  }
 }
 
 .mockup {
@@ -199,7 +202,7 @@ header {
 }
 .tags {
   display: flex;
-  gap: 1em;
+  gap: 0 1em;
   flex-wrap: wrap;
   .tag {
     background-color: #707070;
@@ -209,6 +212,7 @@ header {
     padding: 0.5em 1em;
     color: white;
     font-weight: 500;
+    margin-bottom: 0;
   }
 }
 .skills {
@@ -237,8 +241,12 @@ header {
 .about {
   width: 80%;
   margin: 5em auto 0;
-  font-size: 36px;
-  line-height: 56px;
+  font-size: 30px;
+  line-height: 46px;
+  border-left: 6px solid;
+  border-image: linear-gradient(#027bff, #4d3fcf, #6f3fcf);
+  border-image-slice: 1;
+  border-image-outset: 0.5em 0 0.5em 1em;
   p {
     width: 70%;
   }
@@ -419,6 +427,7 @@ header {
   }
   .about {
     margin: 1em auto;
+    border: none;
     p {
       font-size: 25px;
       line-height: 40px;
