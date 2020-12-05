@@ -12,7 +12,7 @@ body {
   font-family: "Montserrat", sans-serif;
   margin: 0;
   padding: 0;
-  background-image: url("/static/hero-bg.svg");
+  background-image: url("/static/hero-bg-2.svg");
   background-repeat: no-repeat;
   background-position: 130% 00%;
   background-size: 67%;
@@ -289,9 +289,12 @@ header {
   .div {
     width: 45%;
     margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
     img {
-      width: 50px;
+      width: 100px;
       transition: all 0.3s;
+      margin-right: 2em;
       &:hover {
         transform: scale(1.2);
         transition: all 0.3s;

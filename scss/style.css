@@ -7,7 +7,7 @@ body {
   font-family: "Montserrat", sans-serif;
   margin: 0;
   padding: 0;
-  background-image: url("/static/hero-bg.svg");
+  background-image: url("/static/hero-bg-2.svg");
   background-repeat: no-repeat;
   background-position: 130% 00%;
   background-size: 67%;
@@ -375,12 +375,19 @@ header nav .empty {
 .contact .div {
   width: 45%;
   margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
 
 .contact .div img {
-  width: 50px;
+  width: 100px;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
+  margin-right: 2em;
 }
 
 .contact .div img:hover {

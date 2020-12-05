@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1396.759" height="1156.458" viewBox="0 0 1396.759 1156.458">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.165" y1="-0.061" x2="1.197" y2="0.601" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ecf8ff"/>
+      <stop offset="1" stop-color="#3b33cb"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.165" y1="-0.061" x2="1.197" y2="0.601" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#e5ecff"/>
+      <stop offset="1" stop-color="#3a6ef6"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="0.165" y1="-0.061" x2="1.197" y2="0.601" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#027bff"/>
+      <stop offset="1" stop-color="#b152e1"/>
+    </linearGradient>
+  </defs>
+  <g id="hero-bg-3" transform="translate(-768.987)">
+    <path id="hero-bg" d="M1115.878,0S1284.81,186.783,1284.81,380.358s-104.272,418.847-89.366,547.9,155.4,169.752,169.846,173.959,703.971,170.072,931.88-99.914S2196.447,0,2196.447,0Z" transform="translate(-346.892)" fill="url(#linear-gradient)"/>
+    <path id="hero-bg-2" data-name="hero-bg" d="M1115.878,0S1284.81,186.783,1284.81,380.358s-104.272,418.847-89.366,547.9,155.4,169.752,169.846,173.959,703.971,170.072,931.88-99.914S2196.447,0,2196.447,0Z" transform="translate(-278.892)" fill="url(#linear-gradient-2)"/>
+    <path id="hero-bg-3-2" data-name="hero-bg" d="M1115.878,0S1284.81,186.783,1284.81,380.358s-104.272,418.847-89.366,547.9,155.4,169.752,169.846,173.959,703.971,170.072,931.88-99.914S2196.447,0,2196.447,0Z" transform="translate(-211.892)" fill="url(#linear-gradient-3)"/>
+  </g>
+</svg>
