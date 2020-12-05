@@ -181,6 +181,7 @@ header {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 8em;
+  overflow: hidden;
   button {
     margin-top: 2.5em;
   }
@@ -448,5 +449,11 @@ header {
     .div {
       width: 80%;
     }
+  }
+}
+
+@media (max-width: 350px) {
+  .main-btn {
+    margin-right: 0.1em;
   }
 }

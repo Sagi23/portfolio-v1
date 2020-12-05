@@ -227,6 +227,7 @@ header nav .empty {
   -ms-grid-columns: 1fr 1fr;
       grid-template-columns: 1fr 1fr;
   gap: 8em;
+  overflow: hidden;
 }
 
 .project button {
@@ -548,6 +549,12 @@ header nav .empty {
   }
   .contact .div {
     width: 80%;
+  }
+}
+
+@media (max-width: 350px) {
+  .main-btn {
+    margin-right: 0.1em;
   }
 }
 /*# sourceMappingURL=style.css.map */
