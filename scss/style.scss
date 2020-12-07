@@ -52,12 +52,6 @@ header {
           border-bottom: 1px solid;
         }
       }
-      .con {
-        color: $primery-color-4;
-        &:hover {
-          color: black;
-        }
-      }
     }
     .empty {
       display: none;
@@ -98,7 +92,7 @@ header {
         border-bottom: 6px solid;
         border-image: linear-gradient(to right, #027bff, #6f3fcf);
         border-image-slice: 1;
-        border-image-outset: 0 0 0 2em;
+        border-image-outset: 0 1em 0 0;
       }
     }
     .big {
@@ -117,7 +111,7 @@ header {
     justify-self: right;
     align-self: center;
     img {
-      width: 100%;
+      width: 30vw;
     }
   }
 }
@@ -158,7 +152,7 @@ header {
 
 .work-title {
   margin-top: 1.7em;
-  font-size: 89px;
+  font-size: 5rem;
   background-color: $primery-color-2;
   color: white;
   width: 40%;
@@ -181,21 +175,20 @@ header {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 8em;
-  overflow: hidden;
   button {
     margin-top: 2.5em;
   }
 }
 
 .mockup {
-  width: 100%;
+  width: 80%;
 }
 .head {
-  font-size: 40px;
+  font-size: 2rem;
   font-weight: 600;
 }
 .sub-head {
-  font-size: 23px;
+  font-size: 1.3rem;
   font-weight: 500;
   width: 70%;
   line-height: 36px;
@@ -225,6 +218,7 @@ header {
   justify-content: space-between;
   .icon {
     transition: all 0.3s;
+    max-width: 100px;
     &:hover {
       transition: all 0.3s;
       transform: scale(1.2);
@@ -242,7 +236,7 @@ header {
 .about {
   width: 80%;
   margin: 5em auto 0;
-  font-size: 30px;
+  font-size: 1.5rem;
   line-height: 46px;
   border-left: 6px solid;
   border-image: linear-gradient(#027bff, #4d3fcf, #6f3fcf);
@@ -258,7 +252,7 @@ header {
   margin: 8em auto;
   .text {
     width: 45%;
-    font-size: 25px;
+    font-size: 1.5rem;
     margin: 0.5em auto;
     line-height: 1.5;
   }
@@ -321,7 +315,13 @@ header {
   height: 10px;
 }
 
+@media (min-width: 1940px) {
+}
+
 @media (max-width: 1440px) {
+  // body {
+  //   background-size: 67%, 100%;
+  // }
   .work-title {
     width: 60%;
   }
@@ -331,6 +331,17 @@ header {
     }
     form {
       width: 80%;
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .hero {
+    &-left {
+      .big {
+        font-size: 2.2rem;
+        line-height: 1.5;
+      }
     }
   }
 }
@@ -396,6 +407,10 @@ header {
       display: none;
     }
     &-left {
+      .big {
+        line-height: 65px;
+        font-size: 35px;
+      }
       .btns {
         display: grid;
         gap: 1em;
@@ -420,9 +435,12 @@ header {
   .project {
     margin-top: 2em;
     gap: 3em;
+    overflow: hidden;
   }
   .sub-head {
     width: 100%;
+    font-size: 1.1rem;
+    line-height: 1.5;
   }
   .skills {
     margin: 5em auto 0;
@@ -435,24 +453,45 @@ header {
     }
   }
   .about {
-    margin: 1em auto;
+    margin: 2em auto 0;
     border: none;
     p {
-      font-size: 25px;
-      line-height: 40px;
+      font-size: 1.2rem;
+      line-height: 30px;
     }
   }
   .contact {
     width: 100%;
     font-size: 18px;
     margin-top: 3em;
+    .text {
+      font-size: 1.2rem;
+    }
     .div {
       width: 80%;
+      img {
+        width: 50px;
+      }
     }
   }
 }
 
-@media (max-width: 350px) {
+@media (max-width: 500px) {
+  .head {
+    font-size: 1.5rem;
+  }
+  .mockup {
+    width: 100%;
+  }
+  .sub-head {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  .tags {
+    .tag {
+      font-size: 1rem;
+    }
+  }
   .main-btn {
     margin-right: 0.1em;
   }

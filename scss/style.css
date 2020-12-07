@@ -66,14 +66,6 @@ header nav ul a:hover {
   border-bottom: 1px solid;
 }
 
-header nav ul .con {
-  color: #6f3fcf;
-}
-
-header nav ul .con:hover {
-  color: black;
-}
-
 header nav .empty {
   display: none;
   background-color: transparent;
@@ -128,7 +120,7 @@ header nav .empty {
      border-image: -webkit-gradient(linear, left top, right top, from(#027bff), to(#6f3fcf));
      border-image: linear-gradient(to right, #027bff, #6f3fcf);
   border-image-slice: 1;
-  border-image-outset: 0 0 0 2em;
+  border-image-outset: 0 1em 0 0;
 }
 
 .hero-left .big {
@@ -154,7 +146,7 @@ header nav .empty {
 }
 
 .hero-right img {
-  width: 100%;
+  width: 30vw;
 }
 
 .main-btn {
@@ -198,7 +190,7 @@ header nav .empty {
 
 .work-title {
   margin-top: 1.7em;
-  font-size: 89px;
+  font-size: 5rem;
   background-color: #4361ee;
   color: white;
   width: 40%;
@@ -227,7 +219,6 @@ header nav .empty {
   -ms-grid-columns: 1fr 1fr;
       grid-template-columns: 1fr 1fr;
   gap: 8em;
-  overflow: hidden;
 }
 
 .project button {
@@ -235,16 +226,16 @@ header nav .empty {
 }
 
 .mockup {
-  width: 100%;
+  width: 80%;
 }
 
 .head {
-  font-size: 40px;
+  font-size: 2rem;
   font-weight: 600;
 }
 
 .sub-head {
-  font-size: 23px;
+  font-size: 1.3rem;
   font-weight: 500;
   width: 70%;
   line-height: 36px;
@@ -291,6 +282,7 @@ header nav .empty {
 .skills .icon {
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
+  max-width: 100px;
 }
 
 .skills .icon:hover {
@@ -313,7 +305,7 @@ header nav .empty {
 .about {
   width: 80%;
   margin: 5em auto 0;
-  font-size: 30px;
+  font-size: 1.5rem;
   line-height: 46px;
   border-left: 6px solid;
   -o-border-image: linear-gradient(#027bff, #4d3fcf, #6f3fcf);
@@ -334,7 +326,7 @@ header nav .empty {
 
 .contact .text {
   width: 45%;
-  font-size: 25px;
+  font-size: 1.5rem;
   margin: 0.5em auto;
   line-height: 1.5;
 }
@@ -430,6 +422,13 @@ header nav .empty {
   }
 }
 
+@media (max-width: 1024px) {
+  .hero-left .big {
+    font-size: 2.2rem;
+    line-height: 1.5;
+  }
+}
+
 @media (max-width: 1000px) {
   .project {
     -ms-grid-columns: 1fr;
@@ -495,6 +494,10 @@ header nav .empty {
   .hero-right {
     display: none;
   }
+  .hero-left .big {
+    line-height: 65px;
+    font-size: 35px;
+  }
   .hero-left .btns {
     display: -ms-grid;
     display: grid;
@@ -518,9 +521,12 @@ header nav .empty {
   .project {
     margin-top: 2em;
     gap: 3em;
+    overflow: hidden;
   }
   .sub-head {
     width: 100%;
+    font-size: 1.1rem;
+    line-height: 1.5;
   }
   .skills {
     margin: 5em auto 0;
@@ -535,24 +541,43 @@ header nav .empty {
     width: 50%;
   }
   .about {
-    margin: 1em auto;
+    margin: 2em auto 0;
     border: none;
   }
   .about p {
-    font-size: 25px;
-    line-height: 40px;
+    font-size: 1.2rem;
+    line-height: 30px;
   }
   .contact {
     width: 100%;
     font-size: 18px;
     margin-top: 3em;
   }
+  .contact .text {
+    font-size: 1.2rem;
+  }
   .contact .div {
     width: 80%;
   }
+  .contact .div img {
+    width: 50px;
+  }
 }
 
-@media (max-width: 350px) {
+@media (max-width: 500px) {
+  .head {
+    font-size: 1.5rem;
+  }
+  .mockup {
+    width: 100%;
+  }
+  .sub-head {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  .tags .tag {
+    font-size: 1rem;
+  }
   .main-btn {
     margin-right: 0.1em;
   }
